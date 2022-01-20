@@ -1,0 +1,130 @@
+body{
+    background-color: antiquewhite;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 500px;
+    width: 400px;
+    background-color:red;
+    display: flex; 
+    border-radius:  40px;
+    box-shadow: 5px 5px 5px black,-5px 5px 5px black;
+    position: relative;
+}
+
+input{
+    color: black;
+    background-color:white;
+    position: absolute;
+    border-radius: 10px;
+    height:10%;
+    width: 80%;
+    left:9%;
+    top: 17%;
+    box-shadow: 5px 5px 5px black,
+    -5px 5px 5px black;
+    margin: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: right;
+}
+.v{
+    font-size: 36px;
+    position: absolute ;
+    top:-75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    top: 220px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px black,
+    -2px 2px 5px black,
+    -2px -2px 5px black,
+    2px -2px 5px black;
+}
+
+#one{
+    top: 150px;
+    left : 20px;
+}
+#two{
+    top: 150px;
+    left : 100px;
+}
+#three{
+    top : 150px;
+    left : 180px;  
+}
+#four{
+    top : 240px;
+    left : 20px;
+}
+#five{
+    top : 240px;
+    left : 100px;
+} 
+#six{
+    top: 240px;
+    left : 180px;
+}
+#seven{
+    top: 330px;
+    left : 20px;
+}
+#eight{
+    top: 330px;
+    left: 100px;
+} 
+#nine{
+    top: 330px;
+    left: 180px;
+}
+#zero{
+    top: 415px;
+    left: 100px;
+}
+#add{
+    top: 150px;
+    left : 265px;
+}
+#calculate{
+    top: 415px;
+    left : 180px;
+}
+#clc{
+    left:20px;
+    top: 415px;
+}
+#sub{
+    left: 265px;
+    top: 240px;
+}
+#mul{
+    top: 330px;
+    left: 265px;
+}
+#div{
+    top: 415px;
+    left: 265px;
+}
+.calc{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    align-items:center;
+    justify-content: center;
+    text-shadow: 4px 3px 5px white;
+    position: absolute;
+    left: 45px;
+    top:-10px;
+}
+.buttons{
+    position: absolute;
+    top: 13px;
+    left: 25px;
+}
